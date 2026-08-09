@@ -259,6 +259,14 @@
     font-size: 5rem;
     color: var(--biolum);
   }
+  .avatar-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+    border-radius: 50%;
+    display: block;
+}
   .avatar-ring::before, .avatar-ring::after {
     content: '';
     position: absolute;
@@ -546,7 +554,7 @@
   <div class="section-wrap">
     <div class="about-visual reveal">
       <div class="avatar-ring">
-        <div class="avatar-inner">A</div>
+        <div class="avatar-inner"><img src="sa.jpeg" alt=""></div>
       </div>
       <div class="stat-chips">
         <div class="stat-chip"><strong>5+</strong><span>Years Exp.</span></div>
